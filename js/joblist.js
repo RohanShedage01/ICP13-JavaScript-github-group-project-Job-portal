@@ -12,5 +12,5 @@ function filterJobs() {
 }
 
 function goToApply() {
-    window.location.href = "form.html";
+    window.location.href = "apply.html";
 }
