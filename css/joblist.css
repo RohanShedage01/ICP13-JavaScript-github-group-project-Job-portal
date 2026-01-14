@@ -188,3 +188,24 @@ body {
     font-size: 1.3rem;
     margin-bottom: 6px;
 }
+
+.company {
+    color: #6366f1;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 0.9rem;
+    color: #475569;
+    margin-bottom: 12px;
+}
+
+.desc {
+    font-size: 0.95rem;
+    margin-bottom: 18px;
+    color: #334155;
+}
