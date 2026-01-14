@@ -1,72 +1,18 @@
-* {
-    box-sizing: border-box;
-    font-family: "Segoe UI", sans-serif;
-}
-
 body {
-    margin: 0;
     background: #f4f6f8;
+    font-family: Arial, sans-serif;
 }
 
-.job-header {
-    background: linear-gradient(125deg, #4f46e5, #0ea5e9);
-    padding: 60px 20px;
+.container {
+    width: 400px;
+    background: white;
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
     text-align: center;
-    color: #fff;
-}
-
-.header-content {
-    max-width: 900px;
-    margin: auto;
-}
-
-.job-header h1 {
-    font-size: 2.8rem;
-    margin-bottom: 10px;
-}
-
-.job-header h1 span {
-    color: #facc15;
-}
-
-.job-header p {
-    font-size: 1.1rem;
-    opacity: 0.9;
-    margin-bottom: 30px;
-}
-
-.header-controls {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
-}
-
-.header-controls input,
-.header-controls select {
-    padding: 12px 15px;
-    width: 260px;
-    border-radius: 8px;
-    border: none;
-    outline: none;
-    font-size: 1rem;
-}
-
-.header-controls input {
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-}
-
-.header-controls select {
-    cursor: pointer;
-}
-
-@media (max-width: 600px) {
-    .job-header h1 {
-        font-size: 2rem;
-    }
-
-    .header-controls input,
-    .header-controls select {
-        width: 100%;
-    }
+    margin-bottom: 15px;
 }
