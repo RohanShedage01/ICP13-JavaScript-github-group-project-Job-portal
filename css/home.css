@@ -322,3 +322,6 @@ a{
 .liked-user{
     margin-left: 10px;
 }
+.post-activit{
+    display: flex;
+}
