@@ -5,10 +5,14 @@ function togglePassword() {
 
         if (pwd.type === "password") {
             pwd.type = "text";
-            toggleText.innerText = "😊";
+            toggleText.innerText = "🫣";
         } else {
             pwd.type = "password";
             toggleText.innerText = "👀";
             
         }
+    }
+
+    function login(){
+        window.location.href="./pages/home.html"
     }
