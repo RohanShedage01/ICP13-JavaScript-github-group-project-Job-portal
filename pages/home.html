@@ -71,20 +71,21 @@
                 <div class="create-post">
                     <div class="create-post-input">
                         <img id="middleProfilePic" src="../images/user-home.png" alt="">
-                        <textarea rows="2" placeholder="Start a post"></textarea>
+                        <textarea id="postText" rows="2" placeholder="Start a post"></textarea>
                     </div>
                     <div class="create-post-links">
                         <li><img src="../images/photo.png" alt="">Photo</li>
                         <li><img src="../images/video.png" alt="">Video</li>
                         <li><img src="../images/article.png" alt="">Write article</li>
-                        <li>Post</li>
+                        <li onclick="addPost()">Post</li>
                     </div>
                 </div>
                 <div class="sort-by">
                   <hr>
                   <p>Sort by: <span>top <img src="../images/down-arrow.png" alt=""></span></p>
                 </div>
-
+                
+                <div id="postContainer"></div>
 
                 <div class="post">
                   <div class="post-author">
